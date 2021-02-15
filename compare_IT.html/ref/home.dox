@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+         #sb{
+     position: relative;
+     margin:10% auto;
+     text-align: center;     
+     width: 30%;
+     height: 40%;
+     border: 2px solid black;
+    }
+    [type="search"]{
+     font-size: 120%;
+     width:70%;
+     margin: 0 5% 0 0;
+ }
+ [type="button"]{
+     font-size: 100%;
+     padding: 1%;
+     border-radius: 5%;
+}
+#ctlt{
+    position: relative;
+    border: 1px solid blue;
+    width: 30%;
+    margin: -19% 0 0;
+}
+h3{
+    margin-left: 5%;
+}
+    </style>
+</head>
+<body>
+    <div id="sb">
+        <input type="search" name="search" id="srh"><input type="button" value="Search">
+    </div>
+    <div id="ctlt">
+        <h3> Categories</h3>
+         <ul>
+            <li>Cloths 
+               <ul>
+                   <li>Men's</li>
+                   <li>Women's</li>
+                   <li>Kid's</li>
+               </ul>
+            </li>
+            <li>Gadgets
+                <ul>
+                    <li>Smart Phones</li>
+                    <li>Smart Watch</li>
+                    <li>Fitness band</li>
+                </ul>
+            </li>
+            <li>Accessories
+                <ul>
+                    <li>Head phones</li>
+                    <li>Bluetooth Speaker</li>
+                    <li>Charger</li>
+                </ul>
+            </li>
+            <li>Grosories
+                <ul>
+                    <li>Rice</li>
+                    <li>Wheat</li>
+                    <li>Powders</li>
+                </ul>
+            </li>
+         </ul>
+    </div>
+</body>
+</html>

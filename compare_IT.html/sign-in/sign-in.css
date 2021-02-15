@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(45deg,violet,red);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+img{
+    width: 120px;
+    margin-left: 27%;
+    margin-top: -45%;
+    background:transparent;
+   
+    }
+div{
+    position:relative;
+    background-image: linear-gradient(45deg,red,violet);
+    width:22%;
+    height:350px;
+    border-radius: 50px;
+    top:2%;
+    box-shadow: 0 0 15px 2px white;
+    padding:10px 10px 10px 10px;
+    margin: 150px auto;
+    margin-top:11%;
+}
+p{
+    text-align: center;
+}
+[type="text"],[type="password"]{
+border-radius: 20px;
+height: 30px;
+font-size: 20px;
+border: none;
+outline: none;
+padding-left: 5%;
+border-bottom: 2px solid pink;
+/*border:1px solid black;*/
+}
+[type="text"]:focus,[type="password"]:focus{
+    background: transparent;
+    color: white;
+}
+[type="button"]{
+    font-size: 20px;
+    margin:0 0 0 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding:10px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+[type="button"]:hover{
+    background-image: linear-gradient(45deg,red,violet);
+    color: white;
+}
